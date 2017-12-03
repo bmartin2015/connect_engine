@@ -7,7 +7,9 @@ defmodule ConnectEngine.Mixfile do
       version: "0.1.0",
       elixir: "~> 1.5",
       start_permanent: Mix.env == :prod,
-      deps: deps()
+      deps: deps(),
+      name: "ConnectEngine",
+      description: "An engine for running a Connect 4 style game."
     ]
   end
 
